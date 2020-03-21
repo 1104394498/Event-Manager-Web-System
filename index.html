@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>日程管理系统</title>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css"/>
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+<div style="text-align:center;clear:both;">
+    <script src="" type="text/javascript"></script>
+    <script src="" type="text/javascript"></script>
+</div>
+
+<div class="sidebar">
+    <ul class="choose">
+        <li class="today"> 今天</li>
+        <li class="plan"> 计划 <span class="unread">2</span></li>
+        <li class="anytime"> 随时</li>
+        <li class="finished"> 已完成</li>
+        <li class="create"> 新增日程</li>
+    </ul>
+</div>
+
+<div class="inputWindow">
+    <form action="php/addEvent.php">
+        日程名称：<br>
+        <input type="text" name="eventName" value="上课">
+        <br>开始时间()：<br>
+        <input type="number" name="beginYear" value="2020">年<input type="number" name="beginMonth" value="3">月<input
+            type="number" name="beginDay" value="2">日<input type="number" name="beginHour" value="23">时<input
+            type="number" name="beginMinute" value="23">
+        <br>结束时间<br>
+        <input type="number" name="endYear" value="2020">年<input type="number" name="endMonth" value="3">月<input
+            type="number" name="endDay" value="2">日<input type="number" name="endHour" value="23">时<input
+            type="number" name="endMinute" value="23">
+        <br><button> 新增日程 </button><br>
+    </form>
+</div>
+
+<div class="container">
+    <h1>Timeline</h1>
+    <div class="timeline-container">
+        <ul class="timeline">
+            <li class="timeline-item">
+                <div class="indicator">
+                    <div class="inner-dot"></div>
+                </div>
+                <div class="event">
+                    <div class="icon-container tomato-red">
+                        <i class="fa fa-stethoscope fa-3x"></i>
+                    </div>
+                    <div class="description-container">
+                        <h4>Doctor's Appointment</h4>
+                        <span>@15:00hrs Tomorrow</span>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="indicator">
+                    <div class="inner-dot"></div>
+                </div>
+                <div class="event">
+                    <div class="icon-container bright-blue">
+                        <i class="fa fa-user fa-3x"></i>
+                    </div>
+                    <div class="description-container">
+                        <h4>Meetup with Mia</h4>
+                        <span>@09:00hrs 30-March</span>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="indicator">
+                    <div class="inner-dot"></div>
+                </div>
+                <div class="event">
+                    <div class="icon-container green-ish">
+                        <i class="fa fa-car fa-2x"></i>
+                    </div>
+                    <div class="description-container">
+                        <h4>Car Delivery</h4>
+                        <span>@16:00hrs 03-April</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<script src="js/index.js"></script>
+
+</body>
+
+</html>
