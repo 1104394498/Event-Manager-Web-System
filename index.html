@@ -8,39 +8,35 @@
     <title>日程管理系统</title>
 
     <link rel="stylesheet" href="css/style.css" media="screen" type="text/css"/>
-    <script src="js/jquery.js"></script>
-    <script src="js/index.js"></script>
 </head>
 
 <body>
-<div style="text-align:center;clear:both;">
-    <script src="" type="text/javascript"></script>
-    <script src="" type="text/javascript"></script>
-</div>
 
 <div class="sidebar">
     <ul class="choose">
-        <li class="today"> 今天</li>
-        <li class="plan"> 计划 <span class="unread">2</span></li>
-        <li class="anytime"> 随时</li>
+        <li class="all"> 所有日程</li>
+        <li class="ddl"> 即将到期 <span class="unread">2</span></li>
         <li class="finished"> 已完成</li>
-        <li class="create"> 新增日程</li>
     </ul>
 </div>
 
-<div class="inputWindow">
-    <form action="php/addEvent.php">
-        日程名称：<br>
-        <input type="text" name="eventName" value="上课">
-        <br>开始时间()：<br>
-        <input type="number" name="beginYear" value="2020">年<input type="number" name="beginMonth" value="3">月<input
-            type="number" name="beginDay" value="2">日<input type="number" name="beginHour" value="23">时<input
-            type="number" name="beginMinute" value="23">
-        <br>结束时间<br>
-        <input type="number" name="endYear" value="2020">年<input type="number" name="endMonth" value="3">月<input
-            type="number" name="endDay" value="2">日<input type="number" name="endHour" value="23">时<input
-            type="number" name="endMinute" value="23">
-        <br><button> 新增日程 </button><br>
+<div class="form-wrap">
+    <form id="createEventForm" action="php/addEvent.php" method="post">
+        <div class="input-wrap">
+            <input type="text" id="eventName" name="eventName">
+            <label for="eventName">日程名</label>
+        </div>
+        <div class="input-wrap">
+            <input type="datetime-local" id="beginTime" name="beginTime">
+            <label for="beginTime">开始时间</label>
+        </div>
+        <div class="input-wrap">
+            <input type="datetime-local" id="endTime" name="endTime">
+            <label for="endTime">结束时间</label>
+        </div>
+        <div class="input-wrap">
+            <input class="createEvent" type="submit" value="新建日程">
+        </div>
     </form>
 </div>
 
@@ -94,7 +90,8 @@
     </div>
 </div>
 
-
+<script src="dependency/jquery.js"></script>
+<script src="dependency/jquery.form.js"></script>
 <script src="js/index.js"></script>
 
 </body>
