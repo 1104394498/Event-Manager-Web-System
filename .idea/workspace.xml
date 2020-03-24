@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f786aaa9-8317-47f1-a120-0d282ef03a8c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/addEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/addEvent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/debug.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/debug.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/params.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/layui/css/layui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/generateHTML.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/generateHTML.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +129,7 @@
       <workItem from="1584886159572" duration="191000" />
       <workItem from="1584949109183" duration="4144000" />
       <workItem from="1584955605198" duration="22156000" />
-      <workItem from="1584980940605" duration="24328000" />
+      <workItem from="1584980940605" duration="26092000" />
     </task>
     <servers />
   </component>

@@ -4,7 +4,7 @@ require_once "functions.php";
 function generateHTML($conn, $type)
 {
     if ($type === "all") {
-        $html = "<h1>未完成日程</h1>";
+        $html = "<h1>待完成日程</h1>";
         $data = searchAll($conn);
     } else if ($type === "ddl") {
         $html = "<h1>即将到期</h1>";
@@ -53,7 +53,7 @@ function generateHTML($conn, $type)
     $i1 = 0;
     foreach ($data as $item) {
         if ($type === "all" || $type === "ddl") {
-            $i = $i1;
+            $i = $i1+2;
         } else {
             $i = $i1 + 2;
         }
