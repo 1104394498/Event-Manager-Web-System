@@ -6,42 +6,51 @@ $(document).ready(function () {
                 $(".container").html(data);
             })
     });
-    $("li.plan").click(function () {
+    $("li.ddl").click(function () {
         $.post("php/search.php",
-            {type: "plan"},
-            function (data, status) {
-                //alert('数据:\n' + data + "\n状态" + status);
-            })
-    });
-    $("li.anytime").click(function () {
-        $.post("php/search.php",
-            {type: "anytime"},
-            function (data, status) {
-                alert('数据:\n' + data + "\n状态" + status);
+            {type: "ddl"},
+            function (data) {
+                $(".container").html(data);
             })
     });
     $("li.finished").click(function () {
         $.post("php/search.php",
             {type: "finished"},
-            function (data, status) {
-                alert('数据:\n' + data + "\n状态" + status);
+            function (data) {
+                $(".container").html(data);
             })
     });
-    $("li.create").click(function () {
+    $("li.expired").click(function () {
         $.post("php/search.php",
-            {type: "create"},
-            function (data, status) {
-                alert('数据:\n' + data + "\n状态" + status);
+            {type: "expired"},
+            function (data) {
+                $(".container").html(data);
             })
     });
 
     // 新建日程的响应
     $("#createEventForm").ajaxForm(function (data, status) {
         // 已经解码了
-        alert(data["status"]);
+        if (data["status"] === "success") {
+            alert("新建日程成功!");
+        } else {
+            alert("新建日程失败!");
+        }
+
     });
 
-    function addEventButton() {
 
-    }
+    // 完成日程的响应
+    $("#selectEvents").ajaxForm(function (data) {
+        print("lalala");
+        // $(".container").html(data);
+        /*
+        var css = document.getElementByIdx_x("indexCss");
+        css.setAttribute("href", "css/style.css");
+        $("body").html(data);
+        */
+        //document.location.href = location.href.substr(0, location.href.length - "php/finishEvents.php".length);
+        //history.pushState(null, null, location.href.substr(0, location.href.length - "php/finishEvents.php".length));
+        //$("html").html(data);
+    });
 });

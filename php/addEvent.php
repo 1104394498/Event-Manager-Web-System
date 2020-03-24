@@ -51,6 +51,9 @@ if (!check_table_is_exist($conn, $table_name)) {
     }
 }
 
+$event_begin_time = date('Y-m-d H:i', strtotime($event_begin_time));
+$event_end_time = date('Y-m-d H:i', strtotime($event_end_time));
+
 $sql = sprintf("INSERT INTO " . $table_name . " (ID, EventName, BeginTime, EndTime) VALUES ('%s', '" .
     $event_name . "', '" . $event_begin_time . "', '" . $event_end_time . "')", md5(uniqid()));
 
@@ -61,4 +64,5 @@ if (!mysqli_query($conn, $sql)) {
 }
 
 mysqli_close($conn);
+die(json_encode(['status' => 'success']));
 ?>

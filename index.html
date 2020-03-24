@@ -7,92 +7,49 @@
 
     <title>日程管理系统</title>
 
-    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css"/>
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" id="indexCss"/>
+    <link rel="stylesheet" href="layui/css/layui.css" media="screen" type="text/css">
 </head>
 
 <body>
 
-<div class="sidebar">
+<div class="sidebar" style="overflow: scroll">
     <ul class="choose">
-        <li class="all"> 所有日程</li>
+        <li class="all"> 未完成日程</li>
         <li class="ddl"> 即将到期 <span class="unread">2</span></li>
-        <li class="finished"> 已完成</li>
+        <li class="finished">已完成</li>
+        <li class="expired"> 已过期</li>
     </ul>
 </div>
 
-<div class="form-wrap">
+<div class="form-wrap" style="overflow: scroll">
     <form id="createEventForm" action="php/addEvent.php" method="post">
-        <div class="input-wrap">
+        <div class="input-wrap" style="overflow: scroll">
             <input type="text" id="eventName" name="eventName">
             <label for="eventName">日程名</label>
         </div>
-        <div class="input-wrap">
+        <div class="input-wrap" style="overflow: scroll">
             <input type="datetime-local" id="beginTime" name="beginTime">
             <label for="beginTime">开始时间</label>
         </div>
-        <div class="input-wrap">
+        <div class="input-wrap" style="overflow: scroll">
             <input type="datetime-local" id="endTime" name="endTime">
             <label for="endTime">结束时间</label>
         </div>
-        <div class="input-wrap">
+        <div class="input-wrap" style="overflow: scroll">
             <input class="createEvent" type="submit" value="新建日程">
         </div>
     </form>
 </div>
 
-<div class="container">
-    <h1>Timeline</h1>
-    <div class="timeline-container">
-        <ul class="timeline">
-            <li class="timeline-item">
-                <div class="indicator">
-                    <div class="inner-dot"></div>
-                </div>
-                <div class="event">
-                    <div class="icon-container tomato-red">
-                        <i class="fa fa-stethoscope fa-3x"></i>
-                    </div>
-                    <div class="description-container">
-                        <h4>Doctor's Appointment</h4>
-                        <span>@15:00hrs Tomorrow</span>
-                    </div>
-                </div>
-            </li>
-            <li class="timeline-item">
-                <div class="indicator">
-                    <div class="inner-dot"></div>
-                </div>
-                <div class="event">
-                    <div class="icon-container bright-blue">
-                        <i class="fa fa-user fa-3x"></i>
-                    </div>
-                    <div class="description-container">
-                        <h4>Meetup with Mia</h4>
-                        <span>@09:00hrs 30-March</span>
-                    </div>
-                </div>
-            </li>
-            <li class="timeline-item">
-                <div class="indicator">
-                    <div class="inner-dot"></div>
-                </div>
-                <div class="event">
-                    <div class="icon-container green-ish">
-                        <i class="fa fa-car fa-2x"></i>
-                    </div>
-                    <div class="description-container">
-                        <h4>Car Delivery</h4>
-                        <span>@16:00hrs 03-April</span>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </div>
+<div class="container" style="overflow: scroll">
+
 </div>
 
 <script src="dependency/jquery.js"></script>
 <script src="dependency/jquery.form.js"></script>
 <script src="js/index.js"></script>
+<script src="js/changeEvents.js"></script>
 
 </body>
 

@@ -3,6 +3,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
+input[type=checkbox] {
+    margin-right: 10px;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
 
 .form-wrap {
     float: left;
@@ -127,7 +134,7 @@ ul.choose {
     font-family: 'Open Sans', sans-serif;
 }
 
-ul > li.all, ul > li.ddl, ul > li.finished, ul > li.create {
+ul > li.all, ul > li.ddl, ul > li.finished, ul > li.create, ul > li.expired {
     color: #fff;
     background: #34495e;
     padding: 1em;
@@ -143,7 +150,7 @@ i {
 }
 
 
-li.today:hover, li.plan:hover, li.anytime:hover, li.finished:hover {
+li.all:hover, li.ddl:hover, li.finished:hover {
     background: #2c3e50;
     border-left: 0.5em groove orange;
 }
@@ -167,7 +174,7 @@ li.today:active, li.plan:active, li.anytime:active, li.finished:active {
 
 .timeline-container {
     height: 450px;
-    width: 500px;
+    width: 65%;
 }
 
 .timeline {
@@ -257,15 +264,15 @@ li.today:active, li.plan:active, li.anytime:active, li.finished:active {
     border-bottom: 10px solid transparent;
 }
 
-.timeline-item:nth-child(1) .event .icon-container:before {
+.timeline-item:nth-child(3n+0) .event .icon-container:before {
     border-right: 10px solid #ff6347;
 }
 
-.timeline-item:nth-child(2) .event .icon-container:before {
+.timeline-item:nth-child(3n+1) .event .icon-container:before {
     border-right: 10px solid #1e88e5;
 }
 
-.timeline-item:nth-child(3) .event .icon-container:before {
+.timeline-item:nth-child(3n+2) .event .icon-container:before {
     border-right: 10px solid #33cc33;
 }
 

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f786aaa9-8317-47f1-a120-0d282ef03a8c" name="Default Changelist" comment="" />
+    <list default="true" id="f786aaa9-8317-47f1-a120-0d282ef03a8c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/addEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/addEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/debug.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/debug.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/params.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/search.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +74,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="日程管理系统.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery-css3-menu-with-inbox/日程管理系统.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery-css3-menu-with-inbox/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="lala.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery-css3-menu-with-inbox/lala.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Unnamed" type="PhpLocalRunConfigurationType" factoryName="PHP Console" nameIsGenerated="true" path="$PROJECT_DIR$/php/search.php">
@@ -76,22 +92,25 @@
     <configuration name="debug.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/php/debug.php">
       <method v="2" />
     </configuration>
-    <configuration name="functions.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/php/functions.php">
+    <configuration name="finishEvents" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/php/finishEvents.php">
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="PHP Script.finishEvents" />
       <item itemvalue="PHP Script.Unnamed" />
       <item itemvalue="PHP Script.addEvent.php" />
       <item itemvalue="PHP Script.debug.php" />
-      <item itemvalue="PHP Script.functions.php" />
-      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.lala.html" />
+      <item itemvalue="JavaScript Debug.日程管理系统.html" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.日程管理系统.html" />
+        <item itemvalue="JavaScript Debug.lala.html" />
         <item itemvalue="PHP Script.debug.php" />
         <item itemvalue="PHP Script.addEvent.php" />
-        <item itemvalue="PHP Script.functions.php" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +131,8 @@
       <workItem from="1584790164491" duration="265000" />
       <workItem from="1584886159572" duration="191000" />
       <workItem from="1584949109183" duration="4144000" />
-      <workItem from="1584955605198" duration="21104000" />
+      <workItem from="1584955605198" duration="22156000" />
+      <workItem from="1584980940605" duration="24328000" />
     </task>
     <servers />
   </component>
@@ -128,10 +148,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="504" y="115" key="#PHP/0.0.1680.1050@0.0.1680.1050" timestamp="1584694036167" />
-    <state x="304" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584977726627">
+    <state x="304" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585011940268">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="304" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584977726627" />
+    <state x="304" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585011940268" />
     <state x="578" y="280" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584972725636">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -144,70 +164,74 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="0" y="285" key="#xdebugger.XInspectDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584976780092" />
-    <state width="1638" height="363" key="GridCell.Tab.0.bottom" timestamp="1584977832475">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1585049762029">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1584977832475" />
-    <state width="1638" height="363" key="GridCell.Tab.0.center" timestamp="1584977832473">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585049762029" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1585049762028">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1584977832473" />
-    <state width="1638" height="363" key="GridCell.Tab.0.left" timestamp="1584977832464">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585049762028" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1585049762028">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1584977832464" />
-    <state width="1638" height="363" key="GridCell.Tab.0.right" timestamp="1584977832474">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585049762028" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1585049762029">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1584977832474" />
-    <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1584977833792">
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585049762029" />
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1585046242859">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1584977833792" />
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585046242859" />
     <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.23.1680.950@0.23.1680.950" timestamp="1584960874180" />
-    <state width="1638" height="363" key="GridCell.Tab.1.center" timestamp="1584977833788">
+    <state width="1638" height="363" key="GridCell.Tab.1.center" timestamp="1585046242859">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1584977833788" />
+    <state width="1638" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585046242859" />
     <state width="1638" height="363" key="GridCell.Tab.1.center/0.23.1680.950@0.23.1680.950" timestamp="1584960874179" />
-    <state width="1638" height="363" key="GridCell.Tab.1.left" timestamp="1584977833788">
+    <state width="1638" height="363" key="GridCell.Tab.1.left" timestamp="1585046242858">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1584977833788" />
+    <state width="1638" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585046242858" />
     <state width="1638" height="363" key="GridCell.Tab.1.left/0.23.1680.950@0.23.1680.950" timestamp="1584960874178" />
-    <state width="1638" height="363" key="GridCell.Tab.1.right" timestamp="1584977833790">
+    <state width="1638" height="363" key="GridCell.Tab.1.right" timestamp="1585046242859">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1584977833790" />
+    <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585046242859" />
     <state width="1638" height="363" key="GridCell.Tab.1.right/0.23.1680.950@0.23.1680.950" timestamp="1584960874179" />
-    <state width="1638" height="363" key="GridCell.Tab.2.bottom" timestamp="1584977832252">
+    <state width="1638" height="363" key="GridCell.Tab.2.bottom" timestamp="1585046242861">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1584977832252" />
-    <state width="1638" height="363" key="GridCell.Tab.2.center" timestamp="1584977832251">
+    <state width="1638" height="363" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585046242861" />
+    <state width="1638" height="363" key="GridCell.Tab.2.center" timestamp="1585046242860">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1584977832251" />
-    <state width="1638" height="363" key="GridCell.Tab.2.left" timestamp="1584977832250">
+    <state width="1638" height="363" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585046242860" />
+    <state width="1638" height="363" key="GridCell.Tab.2.left" timestamp="1585046242860">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1584977832250" />
-    <state width="1638" height="363" key="GridCell.Tab.2.right" timestamp="1584977832251">
+    <state width="1638" height="363" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585046242860" />
+    <state width="1638" height="363" key="GridCell.Tab.2.right" timestamp="1585046242861">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1584977832251" />
+    <state width="1638" height="363" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585046242861" />
     <state x="387" y="357" key="NewPhpClassDialog" timestamp="1584971671221">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="387" y="357" key="NewPhpClassDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584971671221" />
-    <state x="658" y="459" key="NewPhpFileDialog" timestamp="1584973587141">
+    <state x="658" y="459" key="NewPhpFileDialog" timestamp="1585049801878">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="658" y="459" key="NewPhpFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584973587141" />
+    <state x="658" y="459" key="NewPhpFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585049801878" />
     <state x="341" y="164" key="SettingsEditor" timestamp="1584976325319">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1584976325319" />
+    <state width="840" height="525" key="XDebugger.FullValuePopup" timestamp="1585027696035">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="840" height="525" key="XDebugger.FullValuePopup/0.0.1680.1050@0.0.1680.1050" timestamp="1585027696035" />
     <state x="494" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584694004408">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -231,20 +255,26 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/php/search.php</url>
-          <line>39</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/php/finishEvents.php</url>
+          <line>46</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/php/search.php</url>
-          <line>16</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/php/finishEvents.php</url>
+          <line>42</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/changeEvents.js</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/index.js</url>
-          <line>2</line>
+          <line>51</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="16" />
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
